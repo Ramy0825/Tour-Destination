@@ -96,4 +96,4 @@ const Gallery = ({ tours, setTours, onRemove }) => {
 };
 
 //Exporting the Gallery component so it can be used in other files like App.jsx
-export default Gallery;
+export default Gallery;; 
