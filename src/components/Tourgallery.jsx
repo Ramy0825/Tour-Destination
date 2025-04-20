@@ -28,7 +28,7 @@ const Gallery = ({ tours, setTours, onRemove }) => {
       if (!response.ok) {
         throw new Error("Failed to fetch tours");
       }
-
+;
       //Convert the response to JSON and save it using the parent component's state
       const data = await response.json();
       setTours(data);
