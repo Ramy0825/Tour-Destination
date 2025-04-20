@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import './styles/styles.css';
 import Gallery from './components/Gallery';
 import DestinationSelector from './components/DestinationSelector';
-
+;
 const App = () => {
   // State to store the list of tours
   const [tours, setTours] = useState([]);
